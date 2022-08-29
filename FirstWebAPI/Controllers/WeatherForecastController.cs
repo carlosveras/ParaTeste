@@ -16,7 +16,7 @@ namespace FirstWebAPI.Controllers
         /// </summary>
         private static readonly string[] Summaries = new[]
         {
-            "CONGELANDO", "Bracing", "Chilly", "FRIO", "Mild", "Warm", "Balmy", "QUENTE", "Sweltering", "ESCALDANTE" 
+            "CONGELANDO", "Bracing", "Chilly", "FRIO", "Mild", "Warm", "Balmy", "QUENTE", "SUFOCANTE", "ESCALDANTE" 
         };
 
         private readonly ILogger<WeatherForecastController> _logger;
