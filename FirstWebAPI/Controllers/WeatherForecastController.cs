@@ -11,6 +11,9 @@ namespace FirstWebAPI.Controllers
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
+        /// <summary>
+        /// comentario no array
+        /// </summary>
         private static readonly string[] Summaries = new[]
         {
             "CONGELANDO", "Bracing", "Chilly", "FRIO", "Mild", "Warm", "Balmy", "QUENTE", "Sweltering", "ESCALDANTE" 
