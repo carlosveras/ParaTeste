@@ -26,6 +26,11 @@ namespace FirstWebAPI.Controllers
             _logger = logger;
         }
 
+
+        /// <summary>
+        /// comentario no Get
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
